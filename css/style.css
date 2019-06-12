@@ -1,0 +1,14 @@
+
+.digital{
+ margin-left: 605px;
+ font-size: 21px;
+}
+.main-div{
+	width: 1170px;
+	margin:0 auto;
+background-color: #22B573;
+}
+
+.d-block{
+	display: inline-block;
+}
