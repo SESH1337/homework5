@@ -1,3 +1,51 @@
-{
-	
+body{
+	background-color:#22B573;
+}
+
+
+.navigation-li{
+	margin-right: 10px;
+	float: right;
+	font-size: 25px;
+	margin-top:60px;}
+
+.digital{
+ margin-left: 605px;
+ font-size: 21px;
+}
+.main-div{
+	width: 1170px;
+	margin:0 auto;
+background-color: #22B573;}
+
+.arrow{
+	float: right;
+}
+.clear{
+	clear:both;
+	background:#22B573;
+}
+.container{
+    margin-top: 50px;
+    margin-right: 50px;
+}
+.article-p{
+      float:left;
+}
+
+.typoo{
+	float:right;
+}
+.float{
+	border:20px solid rex;
+}
+
+section {
+	display: block;
+}
+
+article.description {
+	display: inline-block;
+	width: '50%';
+
 }

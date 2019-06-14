@@ -1,14 +1,75 @@
-
-.digital{
- margin-left: 605px;
- font-size: 21px;
-}
-.main-div{
-	width: 1170px;
-	margin:0 auto;
-background-color: #22B573;
+/**
+* General styles
+*/
+body {
+	background-color:#22B573;
 }
 
-.d-block{
+.clear {
+	clear:both;
+	background:#22B573;
+}
+
+.container {
+    margin: 0 50px;
+}
+
+/**
+* Header styles
+*/
+.menu {
+	margin-top: 50px;
+	margin-bottom: 75px;
+}
+
+.menu .arrow {
+	float: right;
+	width: 150px;
+}
+
+.navigation-ul {
+	text-align: center;
+	padding-left: 150px;
+}
+
+.navigation-li{
+	margin-right: 10px;
 	display: inline-block;
+	font-size: 25px;
+}
+
+.navigation-li > a {
+	color: white;
+}
+
+
+/**
+* Content styles
+*/
+section {
+	display: block;
+}
+
+article.description {
+	float: left;
+    width: calc(50% - 30px);
+    padding: 20px;
+    margin: 0 15px;
+    box-sizing: border-box;
+    background: yellow;
+}
+
+.article-img {
+	width: 200px;
+    margin: 0 20px 20px 0;
+}
+
+.article-img.left {
+	float: left;
+    margin: 0 20px 20px 0;
+}
+
+.article-img.right {
+	float: right;
+    margin: 0 0 20px 20px;
 }
